@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  background-color: #1c1c1c;
+  width: 100%;
+  height: 150px;
+  padding-top: 20px;
+}
+.banner .container .row nav #bannernav .ulban {
+  display: flex;
+  align-items: center;
+}
+.banner .container .row nav #bannernav .ulban .icontext {
+  padding-left: 30px;
+  padding-right: 0px;
+  padding-top: 10px;
+}
+.banner .container .row nav #bannernav .ulban .icontext a strong {
+  color: #999;
+}
+.banner .container .row nav #bannernav .ulban .icontext .txt {
+  color: white;
+}
+.banner .container .row nav #bannernav .ulban .icon {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  justify-content: center;
+  background-color: #1c1c1c;
+  border: 1px solid #999;
+}
+.banner .container .row nav #bannernav .ulban .icon i {
+  color: #688ff4;
+}
+
+#head .container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#head .container .row {
+  position: fixed;
+}
+#head .container .row nav {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding-right: 30px;
+  padding-left: 30px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+#head .container .row nav .get {
+  padding-left: 90px;
+}
+#head .container .row nav .get #btget {
+  padding: 10px 30px;
+  border: none;
+  background-color: #688ff4;
+  color: white;
+}
+
+#secOne {
+  background-image: url(/assets/scss/img/img05.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 700px;
+  background-color: rgba(0, 0, 0, 0.9607843137);
+  opacity: 1;
+}
+#secOne .container .row {
+  justify-content: center;
+  padding-top: 100px;
+}
+#secOne .container .row .col-lg-6 {
+  padding-bottom: 20px;
+}
+#secOne .container .row .col-lg-6 .sectext {
+  color: white;
+}
+#secOne .container .row .col-lg-6 .sectext .explor {
+  border: none;
+  background-color: #688ff4;
+  color: white;
+  padding: 10px 20px;
+}
+#secOne .container .row .col-lg-6 .sectext .swan {
+  color: #688ff4;
+}
+#secOne .container .row .col-lg-6 form {
+  border-radius: 10px;
+  padding-top: 10px;
+  width: 100%;
+  height: 350px;
+  background-color: white;
+  justify-content: center;
+  align-items: center;
+}
+#secOne .container .row .col-lg-6 form .formdiv {
+  padding-left: 80px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+#secOne .container .row .col-lg-6 form .formdiv .mb-2 input {
+  width: 70%;
+}
+#secOne .container .row .col-lg-6 form .formdiv .mb-2 .get {
+  padding-top: 10px;
+}
+#secOne .container .row .col-lg-6 form .formdiv .mb-2 .get .btget {
+  padding: 10px 20px;
+  border: none;
+  background-color: #688ff4;
+  color: white;
+}
+
+#secTwo {
+  padding-top: 60px;
+  padding-bottom: 50px;
+  width: 100%;
+  height: auto;
+}
+#secTwo .container .row .col-lg-12 .abouttext .abo {
+  color: #688ff4;
+  padding-right: 15px;
+}
+#secTwo .container .row .col .cr .card-body .number {
+  color: #688ff4;
+  font-weight: 700;
+}
+#secTwo .container .row .col .cr .card-body a {
+  color: #688ff4;
+}
+
+#secTree {
+  width: 100%;
+  height: auto;
+  background-image: url(/assets/scss/img/img04.jpg);
+  background-position: center;
+  background-size: cover;
+}
+#secTree .container .tree .col .card-body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+#secTree .container .tree .col .card-body h1 {
+  font-size: 70px;
+  color: #688ff4;
+}
+#secTree .container .tree .col .card-body p {
+  color: rgb(112, 112, 112);
+}
+
+#secFive {
+  padding-top: 100px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+#secFive .inpts {
+  padding-bottom: 100px;
+}
+#secFive #cart {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-top: 100px;
+}
+#secFive #cart .box {
+  padding: 40px;
+  justify-items: center;
+  width: 350px;
+  height: auto;
+  padding-bottom: 50px;
+  align-items: center;
+}
+#secFive #cart .box img {
+  width: 100%;
+  height: auto;
+}
+#secFive #cart .box p {
+  width: 100%;
+  height: 120px;
+}
+
+footer {
+  background-color: #1c1c1c;
+  width: 100%;
+  height: 100px;
+}
+footer p {
+  color: #999;
+  padding: 40px;
+  padding-bottom: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#basketcont {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding-top: 100px;
+}
+#basketcont .box {
+  padding: 40px;
+  justify-items: center;
+  width: 350px;
+  height: auto;
+  padding-bottom: 50px;
+  align-items: center;
+}
+#basketcont .box img {
+  width: 100%;
+  height: auto;
+}
+#basketcont .box p {
+  width: 100%;
+  height: 120px;
+}

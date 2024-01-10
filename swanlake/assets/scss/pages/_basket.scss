@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#basketcont {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding-top: 100px;
+
+    .box {
+        padding: 40px;
+        justify-items: center;
+        width: 350px;
+        height: auto;
+        padding-bottom: 50px;
+        align-items: center;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        p {
+            width: 100%;
+            height: 120px;
+        }
+    }
+}
